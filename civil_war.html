@@ -69,15 +69,10 @@
       <p>For three long years, from 1862 to 1865, Robert E. Lee's Army of Northern Virginia staved off invasions and attacks by the Union Army of the Potomac commanded by a series of ineffective generals until Ulysses S. Grant came to Virginia from the Western theater to become general in chief of all Union armies in 1864. After bloody battles at places with names like The Wilderness, Spotsylvania, Cold Harbor, and Petersburg, Grant finally brought Lee to bay at Appomattox in April 1865. In the meantime Union armies and river fleets in the theater of war comprising the slave states west of the Appalachian Mountain chain won a long series of victories over Confederate armies commanded by hapless or unlucky Confederate generals. In 1864-1865 General William Tecumseh Sherman led his army deep into the Confederate heartland of Georgia and South Carolina, destroying their economic infrastructure while General George Thomas virtually destroyed the Confederacy's Army of Tennessee at the battle of Nashville.</p>
       <p>By the spring of 1865 all the principal Confederate armies surrendered, and when Union cavalry captured the fleeing Confederate President Jefferson Davis in Georgia on May 10, 1865, resistance collapsed and the war ended. The long, painful process of rebuilding a united nation free of slavery began.</p>
 
-
-      <h3 id="chart-data">Results</h3>
-      <p>See chart:</p>
       <div id=image-container>
-        <h4 id="chart-heading">Battery Results Averaged Over 3 Tests</h4>
+        <h4 id="chart-heading">Number of Soldiers in Civil War</h4>
         <canvas id="my-chart"></canvas>
       </div>
-      <h3 id="chart-data">Conclusion</h3>
-      <p>Duracell was the longest lasting battery, but since generic CVS brand batteries were half the cost, they were greater value. I most things, I will only use CVS batteries from now on.</p>
     </div>
 
 
@@ -117,11 +112,11 @@ if (n < 1) {slideIndex = slides.length}
   var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ["Energizer", "Duracell", "CVS (Generic)", "Amazon Basics (Generic)"],
+      labels: ["Union (North)", "Confederate (South)"],
       datasets: [{
-        label: 'Hours Flashlight Lasted',
-        data: [3.4, 3.6, 3.2, 2.9],
-        backgroundColor: ['green', 'blue', 'red', 'orange']
+        label: 'Number of Soldiers',
+        data: [2128948, 1082119],
+        backgroundColor: ['rgba(3, 11, 84, 1)', 'rgba(130, 10, 10, 1']
       }]
     },
     options: {

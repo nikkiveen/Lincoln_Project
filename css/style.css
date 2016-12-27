@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav li a:hover {
-  background: #822c2c;
+  background: #820a0a;
 }
 
 /************************** Landing Page *********************************/
@@ -153,17 +153,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #question-one-solution {
-  color: #822c2c;
+  color: #820a0a;
   display: none;
 }
 
 #question-two-solution {
-  color: #822c2c;
+  color: #820a0a;
   display: none;
 }
 
 #question-three-solution {
-  color: #822c2c;
+  color: #820a0a;
   display: none;
 }
 
@@ -188,12 +188,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #image-container {
   width: 600px;
-  float: right;
-  margin: 10px;
+  margin: auto;
 }
 
 #chart-data {
-  clear: both;
   margin: 0px;
   padding: 0px;
 }
