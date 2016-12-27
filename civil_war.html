@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abraham Lincoln | Civil War</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/glide.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Abraham Lincoln</h1>
+      <p>by Nikki Veen</p>
+    </header>
+    <ul id="nav">
+      <li><a href="early_life.html">Early Life</a></li>
+      <li><a href="presidency.html">Presidency</a></li>
+      <li><a href="civil_war.html">Civil War</a></li>
+    </ul>
+    <div id="sci-content">
+      <h2>The Civil War</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/civil_war1.jpg" style="width:100%">
+          <div class="text">Battle of Corinth</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/civil_war2.jpg" style="width:100%">
+          <div class="text">Lincoln at Antietam</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/civil_war3.jpg" style="width:100%">
+          <div class="text">Union Soldiers</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/civil_war4.jpg" style="width:100%">
+          <div class="text">Union Soldiers</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <p>The Civil War is the central event in America's historical consciousness. While the Revolution of 1776-1783 created the United States, the Civil War of 1861-1865 determined what kind of nation it would be. The war resolved two fundamental questions left unresolved by the revolution: whether the United States was to be a dissolvable confederation of sovereign states or an indivisible nation with a sovereign national government; and whether this nation, born of a declaration that all men were created with an equal right to liberty, would continue to exist as the largest slaveholding country in the world.</p>
+      <p>Northern victory in the war preserved the United States as one nation and ended the institution of slavery that had divided the country from its beginning. But these achievements came at the cost of 625,000 lives--nearly as many American soldiers as died in all the other wars in which this country has fought combined. The American Civil War was the largest and most destructive conflict in the Western world between the end of the Napoleonic Wars in 1815 and the onset of World War I in 1914.</p>
+      <p>The Civil War started because of uncompromising differences between the free and slave states over the power of the national government to prohibit slavery in the territories that had not yet become states. When Abraham Lincoln won election in 1860 as the first Republican president on a platform pledging to keep slavery out of the territories, seven slave states in the deep South seceded and formed a new nation, the Confederate States of America. The incoming Lincoln administration and most of the Northern people refused to recognize the legitimacy of secession. They feared that it would discredit democracy and create a fatal precedent that would eventually fragment the no-longer United States into several small, squabbling countries.</p>
+      <p>The event that triggered war came at Fort Sumter in Charleston Bay on April 12, 1861. Claiming this United States fort as their own, the Confederate army on that day opened fire on the federal garrison and forced it to lower the American flag in surrender. Lincoln called out the militia to suppress this "insurrection." Four more slave states seceded and joined the Confederacy. By the end of 1861 nearly a million armed men confronted each other along a line stretching 1200 miles from Virginia to Missouri. Several battles had already taken place--near Manassas Junction in Virginia, in the mountains of western Virginia where Union victories paved the way for creation of the new state of West Virginia, at Wilson's Creek in Missouri, at Cape Hatteras in North Carolina, and at Port Royal in South Carolina where the Union navy established a base for a blockade to shut off the Confederacy's access to the outside world.</p>
+      <p>The real fighting began in 1862. Huge battles like Shiloh in Tennessee, Gaines' Mill, Second Manassas, and Fredericksburg in Virginia, and Antietam in Maryland foreshadowed even bigger campaigns and battles in subsequent years, from Gettysburg in Pennsylvania to Vicksburg on the Mississippi to Chickamauga and Atlanta in Georgia. By 1864 the original Northern goal of a limited war to restore the Union had given way to a new strategy of "total war" to destroy the Old South and its basic institution of slavery and to give the restored Union a "new birth of freedom," as President Lincoln put it in his address at Gettysburg to dedicate a cemetery for Union soldiers killed in the battle there.</p>
+      <p>For three long years, from 1862 to 1865, Robert E. Lee's Army of Northern Virginia staved off invasions and attacks by the Union Army of the Potomac commanded by a series of ineffective generals until Ulysses S. Grant came to Virginia from the Western theater to become general in chief of all Union armies in 1864. After bloody battles at places with names like The Wilderness, Spotsylvania, Cold Harbor, and Petersburg, Grant finally brought Lee to bay at Appomattox in April 1865. In the meantime Union armies and river fleets in the theater of war comprising the slave states west of the Appalachian Mountain chain won a long series of victories over Confederate armies commanded by hapless or unlucky Confederate generals. In 1864-1865 General William Tecumseh Sherman led his army deep into the Confederate heartland of Georgia and South Carolina, destroying their economic infrastructure while General George Thomas virtually destroyed the Confederacy's Army of Tennessee at the battle of Nashville.</p>
+      <p>By the spring of 1865 all the principal Confederate armies surrendered, and when Union cavalry captured the fleeing Confederate President Jefferson Davis in Georgia on May 10, 1865, resistance collapsed and the war ended. The long, painful process of rebuilding a united nation free of slavery began.</p>
+
+
+      <h3 id="chart-data">Results</h3>
+      <p>See chart:</p>
+      <div id=image-container>
+        <h4 id="chart-heading">Battery Results Averaged Over 3 Tests</h4>
+        <canvas id="my-chart"></canvas>
+      </div>
+      <h3 id="chart-data">Conclusion</h3>
+      <p>Duracell was the longest lasting battery, but since generic CVS brand batteries were half the cost, they were greater value. I most things, I will only use CVS batteries from now on.</p>
+    </div>
+
+
+    <footer>Copyright ©2016</footer>
+  </div>
+</body>
+
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+  var ctx = document.getElementById("my-chart");
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Energizer", "Duracell", "CVS (Generic)", "Amazon Basics (Generic)"],
+      datasets: [{
+        label: 'Hours Flashlight Lasted',
+        data: [3.4, 3.6, 3.2, 2.9],
+        backgroundColor: ['green', 'blue', 'red', 'orange']
+      }]
+    },
+    options: {
+         legend: {
+            display: false
+         }
+    }
+
+  });
+</script>
+</html>

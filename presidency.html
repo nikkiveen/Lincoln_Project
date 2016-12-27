@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <head>
+      <title>Abraham Lincoln | Presidency</title>
+      <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/jquery.quovolver.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>Abraham Lincoln</h1>
+        <p>by Nikki Veen</p>
+      </header>
+      <ul id="nav">
+        <li><a href="early_life.html">Early Life</a></li>
+        <li><a href="presidency.html">Presidency</a></li>
+        <li><a href="civil_war.html">Civil War</a></li>
+      </ul>
+
+      <div id="quiz">
+        <h2>Lincoln Quiz</h2>
+        <div>
+          <p id="question-one-question">What state was Abraham Lincoln Born?</p>
+          <p id="question-one-solution">He was born in Kentucky.</p>
+          <p id="question-two-question">How tall was Abraham Lincoln?</p>
+          <p id="question-two-solution">He was 6'4" tall!</p>
+          <p id="question-three-question">What tool is most commonly associated with Lincoln?</p>
+          <p id="question-three-solution">An axe.<br><img src="img/lincoln_axe.jpg"></p>
+        </div>
+      </div>
+
+      <div id="biography">
+        <h2>Lincoln's Presidency</h2>
+        <p>Although William Seward was the pre-convention favorite for the Republican presidential nomination in 1860, Lincoln won on the third ballot. With Hannibal Hamlin as his running mate, Lincoln was elected the 16th president on November 6, 1860, defeating Douglas, John Bell, and John C. Breckinridge.</p>
+        <p>In February of 1861 the Lincolns left by train for Washington, D.C. The president-elect was now wearing a beard at the suggestion of an 11-year-old girl. Lincoln was sworn in on March 4, 1861.</p>
+        <img id="img-left" src="img/lincoln_headshot.jpg">
+        <p>After Lincoln's election, many Southern states, fearing Republican control in the government, seceded from the Union. Lincoln faced the greatest internal crisis of any U.S. president. After the fall of Ft. Sumter, Lincoln raised an army and decided to fight to save the Union from falling apart. Initially, Lincoln anticipated a short conflict; he called for 75,000 volunteers to serve for three months. Despite enormous pressures, loss of life, battlefield setbacks, bickering among his Cabinet members, generals who weren't ready to fight, assassination threats, etc., Lincoln stuck with this pro-Union policy for four long years of Civil War. On January 1, 1863, the Emancipation Proclamation went into effect. This was Lincoln's declaration of freedom for all slaves in the areas of the Confederacy not under Union control. Also, on November 19, 1863, Lincoln gave his famous Gettysburg Address which dedicated the battlefield there to the soldiers who had perished. He called on the living to finish the task the dead soldiers had begun.</p>
+        <p>Lincoln's domestic policies included support for the Homestead Act. This act allowed poor people in the East to obtain land in the West. Also, Lincoln signed legislation entitled the National Banking Act which established a national currency and provided for the creation of a network of national banks. In addition, he signed tariff legislation that offered protection to American industry and signed a bill that chartered the first transcontinental railroad. Lincoln's foreign policy was geared toward preventing foreign intervention in the Civil War.</p>
+        <p>In 1864 Ulysses S. Grant was named general-in-chief of the armies of the United States. The South was slowly being worn down. Lincoln was reelected president with Andrew Johnson as his running mate. Lincoln defeated the Democrat George McClellan on November 8, 1864. On April 9, 1865, General Robert E. Lee surrendered to Grant. Two days later Lincoln addressed a crowd outside the White House. Among other things, he suggested he would support voting rights for certain blacks. This infuriated a racist and Southern sympathizer who was in the audience: the actor John Wilkes Booth who hated everything the president stood for.</p>
+        <p>On Good Friday, April 14, 1865, the Lincolns attended a play entitled Our American Cousin at Ford's Theatre. During the performance Booth arrived at the theater, entered the State Box from the rear, and shot the president in the back of his head at about 10:15 P.M. Lincoln was carried across the street to the Petersen House where he passed away the next day at 7:22 A.M. This was the first presidential assassination in American history, and the nation mourned its leader. His death was the result of the deep divisions and hatred of the times. Lincoln's body was taken to Springfield by train, and he was buried in the Lincoln Tomb in Oak Ridge Cemetery on May 4, 1865. Because of the assassination, Reconstruction took place without Lincoln's guidance and leadership.</p>
+      </div>
+
+      <div id="quote-container">
+        <div id="quotes">
+          <blockquote>
+          <p>“Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.”</p>
+          <p>— November 19, 1863 Gettysburg Address</p>
+          </blockquote>
+
+          <blockquote>
+          <p>“The man does not live who is more devoted to peace than I am. None who would do more to preserve it.”</p>
+          <p>— February 21, 1861 Address to the New Jersey General Assembly</p>
+          </blockquote>
+
+          <blockquote>
+          <p>“In times like the present, men should utter nothing for which they would not willingly be responsible through time and eternity.”</p>
+          <p>— December 1, 1862 Message to Congress</p>
+          </blockquote>
+        </div>
+      </div>
+
+      <footer>
+        Copyright ©2016
+      </footer>
+
+    </div>
+
+
+    <script type="text/javascript">
+      $("#question-one-question").click(function(){
+        $("#question-one-solution").slideDown();
+      });
+
+      $("#question-one-solution").click(function(){
+        $("#question-one-solution").slideUp();
+      })
+
+      $("#question-two-question").click(function(){
+        $("#question-two-solution").slideDown();
+      });
+
+      $("#question-two-solution").click(function(){
+        $("#question-two-solution").slideUp();
+      })
+
+      $("#question-three-question").click(function(){
+        $("#question-three-solution").slideDown();
+      });
+
+      $("#question-three-solution").click(function(){
+        $("#question-three-solution").slideUp();
+      })
+
+      $('#quotes').quovolver();
+    </script>
+  </body>
+</html>
