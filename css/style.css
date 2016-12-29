@@ -153,6 +153,18 @@ h1, h2, h3, h4, h5, h6 {
   overflow: scroll;
 }
 
+#lincoln-headshot {
+  width: 200px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+#lincoln-flag {
+  width: 250px;
+  float: right;
+  margin: 0px 0px 0px 10px;
+}
+
 #quiz {
   width: 380px;
   float: right;
